@@ -1,0 +1,25 @@
+<%-include("partials/header")-%>
+<div class="heading">
+    <h1>Exercise with AR</h1>
+    <a href="/setupar">Set Up the Marker >></a>
+</div>
+<hr/>
+<div class="content">
+    <%yogaContent.forEach((element)=>{%>
+        <div class="card">
+            <div class="card-header">
+                <h4 class="card-title"><a href="/ar/<%=element.name%>">
+                        <%=element.name%>
+                    </a>
+                </h4>
+            </div>
+            <div class="card-body">
+                <p class="card-text">
+                    <%=element.benifit%>
+                </p>
+            </div>
+        </div>
+    <%})%>
+
+</div>
+<%-include("partials/footer")-%>
