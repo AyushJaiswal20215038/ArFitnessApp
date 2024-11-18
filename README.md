@@ -6,7 +6,7 @@ I used 2D images due lack of 3D model and their price.
 
 - I used Ar js and Ar frame libraries for Ar implemantation.
 
-- User have to put a marker at some distance by checking test model. After adjuting it little they can use it.
+- User have to put a marker at some distance by checking with test. After adjuting it little they can use it.
 
 
 
